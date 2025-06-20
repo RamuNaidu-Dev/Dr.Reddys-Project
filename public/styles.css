@@ -3,17 +3,41 @@ body {
     padding: 20px;
     background-color: #f4f4f4;
   }
+
+.container-1{
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+img{
+    width: 5.9em;
+    height: 4.3em;
+}
       
-h1 {
-  color: #333;
-  text-align: center;
+#name {
+  color: black;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+.container-2{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+h1{
+  color: black;
+  font-size: 32px;
+  text-align: center;   
 }
       
 .location-section {
+  /* flex-direction: column; */
   margin-bottom: 20px;
   background-color: #fff;
-  padding: 15px;
-  border-radius: 8px;
+  padding: 25px;
+  border-radius: 10px;
 }
       
 .location-title {
@@ -25,12 +49,13 @@ h1 {
 .site-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
 }
       
 .site-button {
+  text-size-adjust: 40px;
   padding: 10px 20px;
-  background-color: #2f80ed;
+  background-color: #5525B5;
   color: white;
   border: none;
   border-radius: 5px;
@@ -44,4 +69,3 @@ h1 {
 button {
   margin-top: 20px;
 }
-
